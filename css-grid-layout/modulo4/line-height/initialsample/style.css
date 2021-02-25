@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: "Lato", sans-serif;
+  width: 550px;
+}
+
+.container {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+}
+
+.element {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.container1 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+
+  text-align: left;
+}
+
+.element1 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: papayawhip;
+  display: inline-block;
+}
+
+.element2 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: papayawhip;
+  display: inline-block;
+}
+
+.element3 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: papayawhip;
+  display: inline-block;
+}
+
+.container2 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+
+  text-align: center;
+}
+
+.element4 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: pink;
+  display: inline-block;
+}
+
+.element5 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: pink;
+  display: inline-block;
+}
+
+.element6 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: pink;
+  display: inline-block;
+}
+
+.container3 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+
+  text-align: right;
+}
+
+.element7 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: lightcyan;
+  display: inline-block;
+}
+
+.element8 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: lightcyan;
+  display: inline-block;
+}
+
+.element9 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: lightcyan;
+  display: inline-block;
+}

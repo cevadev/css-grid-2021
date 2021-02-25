@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+/*wrapper que envuelve a todos nuestros elementos*/
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: "Lato", sans-serif;
+  width: 550px;
+}
+
+/*recuadro superior que contiene un elemento determinado*/
+.container {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+}
+
+.element {
+  width: 60px;
+  height: 60px;
+  text-align: center; /*alineamos el texto dentro del elemento*/
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+/*propiedades para cada elemento dentro del container*/
+.element1 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: papayawhip;
+  /*margin top: 0 se ubica por defecto superior izquieda*/
+  margin: 0;
+}
+
+.element2 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: papayawhip;
+  /*Nos mantenemos en la misma columna donde esta el elemento pero bajamos su ubicacion, para ello le agregamos
+    un margin en el top al elemento y cero para las demas propiedades del margin*/
+  margin: 60px 0; /*cada elemento tiene un tamaño de 60px*/
+}
+
+.element3 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: papayawhip;
+  margin: 120px 0;
+}
+
+.element4 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: pink;
+  /*margin 0 -> le coloca 0 de margen top*/
+  /*margin auto -> alinea de manera horizontal por algo llamado margin colalpsing*/
+  margin: 0 auto;
+}
+
+.element5 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: pink;
+  /*margin 60px -> adicina un margen de 60px al top*/
+  /*margin auto -> lo centra horizontalmente*/
+  margin: 60px auto;
+}
+
+.element6 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: pink;
+  margin: 120px auto;
+}
+
+.element7 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: lightcyan;
+  /*margin: 0 0 0 -> aplica 0px de margin al top right bottom*/
+  /*margin: auto -> centrado*/
+  margin: 0 0 0 auto;
+}
+
+.element8 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: lightcyan;
+  margin: 60px 0 0 auto;
+}
+
+.element9 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: lightcyan;
+  margin: 120px 0 0 auto;
+}

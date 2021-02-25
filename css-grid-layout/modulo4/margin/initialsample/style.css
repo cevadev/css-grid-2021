@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+/*wrapper que envuelve a todos nuestros elementos*/
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: "Lato", sans-serif;
+  width: 550px;
+}
+
+/*recuadro superior que contiene un elemento determinado*/
+.container {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+}
+
+.element {
+  width: 60px;
+  height: 60px;
+  text-align: center; /*alineamos el texto dentro del elemento*/
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+/*propiedades para cada elemento dentro del container*/
+.element1 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: papayawhip;
+  /*margin top: 0 se ubica por defecto superior izquieda*/
+  margin: 0;
+}
+
+.element2 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: papayawhip;
+}
+
+.element3 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: papayawhip;
+}
+
+.element4 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: pink;
+}
+
+.element5 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: pink;
+}
+
+.element6 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: pink;
+}
+
+.element7 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: lightcyan;
+}
+
+.element8 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: lightcyan;
+}
+
+.element9 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: lightcyan;
+}
