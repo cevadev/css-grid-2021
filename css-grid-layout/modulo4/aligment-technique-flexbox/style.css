@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: "Lato", sans-serif;
+  width: 550px;
+}
+
+.container {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+}
+
+.element {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.element1 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: papayawhip;
+}
+
+.element2 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: pink;
+}
+
+.element3 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  background: lightcyan;
+}
+
+.container1 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+  /*indicamos al navegador que trabaje con flex*/
+  display: flex;
+  /*justify-content: flex-start porque queremos que el contenido empiece el lado izquierdo*/
+  justify-content: flex-start;
+  /*verticalmente lo ubicamos al comienzo del documento*/
+  align-items: flex-start;
+}
+
+.container2 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container3 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.container4 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container5 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container6 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container7 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.container8 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container9 {
+  background: turquoise;
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
