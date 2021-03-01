@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+/*paleta de colores*/
+:root {
+  --blue: #81ccf1;
+  --yellow: #efc66a;
+  --pink: #d8a6cb;
+  --dark-pink: #c59ece;
+  --purple: #9996cb;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+  background-image: linear-gradient(
+    to top,
+    #9996cb,
+    #ab99cc,
+    #bb9dcd,
+    #caa1cc,
+    #d8a6cb
+  );
+
+  /*quitamos el margin por defecto*/
+  margin: 0;
+  /*100% de la pantalla que estamos viendo (view height)*/
+  height: 100vh;
+}
+
+.container {
+  /*valor interno de visualizacion grid*/
+  display: grid;
+  /*especificamos nuestra grilla*/
+  grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+  height: 100vh;
+}

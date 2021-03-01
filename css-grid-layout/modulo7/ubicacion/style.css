@@ -1,0 +1,23 @@
+.container {
+  background: papayawhip;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "card-1 card-2"
+    "card-3 card-3";
+  width: 200px;
+  height: 120px;
+}
+
+.item-one {
+  background: blue;
+}
+
+.item-two {
+  background: purple;
+}
+
+.item-three {
+  background: hotpink;
+  grid-area: card-3;
+}
